@@ -78,3 +78,28 @@ This project fetches data from the REST Countries API, which provides informatio
 
 API Endpoint: ```https://restcountries.com/v3.1/all```
 
+## 🌑 Dark Mode
+
+The app includes a toggle switch for dark mode. Users can switch between light and dark themes to enhance their visual experience.
+
+## 🐛 Known Issues / Bugs
+
+- Some countries may not have a capital listed, and the app will show N/A for such cases.
+
+- Since the app depends on an external API, a slow or unavailable API can cause issues with loading country data.
+
+## 🧑‍💻 Future Improvements
+
+- **Pagination**: Adding pagination for better performance when displaying a large number of countries.
+
+- **Offline Mode**: Implementing a fallback mechanism if the API fails to load, possibly using local storage to cache the data.
+
+- **Advanced Filters**: Implementing more advanced filters, such as by population range, language, or currency.
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page for any open issues or submit a pull request.
