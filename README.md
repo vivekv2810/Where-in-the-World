@@ -2,10 +2,6 @@
 
 This project is an interactive web application that provides users with searchable and filterable information about countries, including their populations, regions, capitals, and flags.
 
-## 🚀 Demo
-
-You can view a live demo of the project [here](#).
-
 ## ✨ Features
 
 - Fetches live data of all countries from the [REST Countries API](https://restcountries.com/)
@@ -57,4 +53,28 @@ You should now be able to view all countries with their details, search for spec
 ├── styles.css      # The CSS file for styling the app
 └── script.js       # JavaScript file containing all the logic for fetching and displaying countries
 ```
+
+## File Breakdown
+
+- **index.html**: Contains the basic structure of the web app, including the search bar, region filter, and container to display the countries.
+
+- **styles.css**: Styles the web app and includes the dark mode styles.
+
+- **script.js**: Handles all the logic for fetching country data, rendering it dynamically, and implementing search, filter, and dark mode functionalities.
+
+## 📡 API Information
+
+This project fetches data from the REST Countries API, which provides information about countries around the world, including:
+
+- Country name
+
+- Population
+
+- Region
+
+- Capital
+
+- Flag
+
+API Endpoint: ```https://restcountries.com/v3.1/all```
 
