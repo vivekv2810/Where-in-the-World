@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Where in the World</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Where in the World</h1>
+    <div class="mode-switch">
+      <label for="darkModeToggle">Dark Mode</label>
+      <input type="checkbox" id="darkModeToggle">
+    </div>
+  </header>
+
+  <div class="search-filter">
+    <input type="text" id="searchInput" placeholder="Search for a country..">
+    <select id="regionFilter">
+      <option value="">Filter By Region</option>
+      <option value="Africa">Africa</option>
+      <option value="Europe">Europe</option>
+      <option value="Oceania">Oceania</option>
+      <!-- Add more regions as necessary -->
+    </select>
+  </div>
+
+  <div class="country-container" id="countryContainer">
+    <!-- Dynamic country cards will be inserted here -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
